@@ -419,7 +419,7 @@ def gitCheckout():
 
     shellCmd("/bin/rm -rf lrose-core")
     if (options.tag == "master"):
-        shellCmd("git clone https://github.com/NCAR/lrose-core")
+        shellCmd("git clone https://github.com/j-amma/lrose-core.git")
     else:
         shellCmd("git clone --branch " + releaseTag + \
                  " https://github.com/NCAR/lrose-core")
